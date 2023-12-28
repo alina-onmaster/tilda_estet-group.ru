@@ -1,0 +1,478 @@
+
+.uc-nav .t967 {
+  overflow: hidden;
+  background-color: white;
+}
+.uc-nav .t967__additionalwrapper {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.uc-nav .t967__bottom {
+  position: relative;
+}
+.uc-nav .t967__bottom::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 100vw;
+  background-color: #ff7300;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: -1;
+}
+.uc-nav .t967__additional-descr ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+.uc-nav .t967__additional-descr ul li {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 40px;
+}
+.uc-nav .t967__additional-descr ul li::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url(https://static.tildacdn.com/tild3031-3031-4665-b331-663535366438/icon-phone.svg);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.uc-nav .t967__additional-descr ul li strong, .uc-nav .t967__additional-descr ul li a {
+  display: inline-block;
+}
+
+.uc-header-top .t821__phone-container a, .uc-header-top .t821__adress-container a {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.uc-header-top .t821__phone-container a:hover, .uc-header-top .t821__adress-container a:hover {
+  color: #144a93 !important;
+}
+
+/*Наша продукция*/
+.uc-product-list--mob .t-card__title {
+  font-size: 24px;
+}
+.uc-product-list--mob .t-card__descr ul {
+  list-style: none;
+  padding-left: 0 !important;
+}
+.uc-product-list--mob .t-card__descr ul li {
+  position: relative;
+  padding-left: 2em;
+}
+.uc-product-list--mob .t-card__descr ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.7em;
+  width: 1em;
+  height: 1px;
+  background-color: #144a93;
+}
+
+.uc-card-fix .t226__floating,
+.uc-card-fix-zhalyuzi .t226__floating,
+.uc-card-fix-potolki .t226__floating,
+.uc-card-fix-softokna .t226__floating {
+  top: 100px;
+}
+.uc-card-fix .t226__text ul,
+.uc-card-fix-zhalyuzi .t226__text ul,
+.uc-card-fix-potolki .t226__text ul,
+.uc-card-fix-softokna .t226__text ul {
+  list-style: none;
+  padding-left: 0 !important;
+}
+.uc-card-fix .t226__text ul li,
+.uc-card-fix-zhalyuzi .t226__text ul li,
+.uc-card-fix-potolki .t226__text ul li,
+.uc-card-fix-softokna .t226__text ul li {
+  position: relative;
+  padding-left: 2em;
+}
+.uc-card-fix .t226__text ul li::before,
+.uc-card-fix-zhalyuzi .t226__text ul li::before,
+.uc-card-fix-potolki .t226__text ul li::before,
+.uc-card-fix-softokna .t226__text ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.7em;
+  width: 1em;
+  height: 1px;
+  background-color: #144a93;
+}
+
+.uc-card-fix-zhalyuzi .t226__fixedTop .t226__title,
+.uc-card-fix-potolki .t226__fixedTop .t226__title,
+.uc-card-fix-softokna .t226__fixedTop .t226__title {
+  display: none;
+}
+.uc-card-fix-zhalyuzi .t226__floating .t226__title,
+.uc-card-fix-potolki .t226__floating .t226__title,
+.uc-card-fix-softokna .t226__floating .t226__title {
+  display: block;
+}
+
+/*Главный слайдер*/
+.uc-main-slider .t734__textwrapper {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  z-index: 1;
+}
+@media (min-width: 961px) {
+  .uc-main-slider .t734__textwrapper {
+    max-width: 600px;
+  }
+}
+.uc-main-slider .t734__textwrapper::before {
+  content: "";
+  position: absolute;
+  top: -60px;
+  left: -40px;
+  width: calc(100% + 80px);
+  height: calc(100% + 120px);
+  background-color: #fff;
+  -webkit-filter: blur(40px);
+          filter: blur(40px);
+  z-index: -1;
+  opacity: 0.7;
+}
+
+/*Баннер на внутренних*/
+.uc-banner .t941__descr ul, .uc-banner .t181__descr ul {
+  list-style: none;
+  padding-left: 0 !important;
+}
+.uc-banner .t941__descr ul li, .uc-banner .t181__descr ul li {
+  position: relative;
+  padding-left: 2em;
+}
+.uc-banner .t941__descr ul li::before, .uc-banner .t181__descr ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.7em;
+  width: 1em;
+  height: 1px;
+  background-color: #144a93;
+}
+
+/*Подзаголовки*/
+.uc-subtitle .t050__uptitle {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+@media (max-width: 960px) {
+  .uc-subtitle .t050__uptitle {
+    font-size: 14px !important;
+  }
+}
+@media (max-width: 960px) {
+  .uc-subtitle .t050__title p {
+    font-size: 36px !important;
+    word-wrap: break-word;
+  }
+}
+@media (min-width: 961px) {
+  .uc-subtitle .t050__title {
+    margin-top: -20px;
+  }
+}
+
+/*Форма консультации*/
+@media (min-width: 961px) {
+  .uc-consultation-form .t700__contentbox {
+    position: relative;
+    bottom: 0;
+  }
+}
+.uc-consultation-form .t700__img {
+  left: 0;
+  bottom: -60px;
+}
+@media (min-width: 961px) {
+  .uc-consultation-form .t700__img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+  }
+}
+
+/*Галерея на главной*/
+@media (min-width: 961px) {
+  #rec672081577.uc-gallery-tabs {
+    position: relative;
+  }
+  #rec672081577.uc-gallery-tabs .t395__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 10px;
+       -moz-column-gap: 10px;
+            column-gap: 10px;
+  }
+  #rec672081577.uc-gallery-tabs .t395__tab {
+    border-top: 1px solid #333333 !important;
+    border-left: 1px solid #333333 !important;
+    border-right: 1px solid #333333 !important;
+    border-color: #333333 !important;
+    border-radius: 10px 10px 0 0;
+  }
+  #rec672081577.uc-gallery-tabs .t395__tab:hover, #rec672081577.uc-gallery-tabs .t395__tab:focus {
+    border-top: 1px solid #144a93 !important;
+    border-left: 1px solid #144a93 !important;
+    border-right: 1px solid #144a93 !important;
+    border-color: #144a93 !important;
+    background-color: #ffffff !important;
+  }
+  #rec672081577.uc-gallery-tabs .t395__tab.t395__tab_active {
+    border-top: 1px solid #144a93 !important;
+    border-left: 1px solid #144a93 !important;
+    border-right: 1px solid #144a93 !important;
+    border-color: #144a93 !important;
+    position: relative;
+    z-index: 5;
+  }
+  #rec672081577.uc-gallery-tabs .t395__tab:first-child {
+    margin-left: -1px;
+  }
+  #rec672081577.uc-gallery-tabs .t395__tab:last-child {
+    margin-right: -1px;
+  }
+}
+
+/*Галерея на главной*/
+@media (min-width: 961px) {
+  .uc-gallery-tab {
+    position: relative;
+    z-index: 1;
+  }
+  .uc-gallery-tab::before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: -1px;
+    bottom: 105px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 100%;
+    max-width: 940px;
+    background-color: #ffffff;
+    z-index: -1;
+    border: 1px solid #144a93;
+  }
+  .uc-gallery-tab .t-slds__imgwrapper {
+    padding-left: 22px;
+  }
+  .uc-gallery-tab .t764__textwrapper {
+    padding-right: 22px;
+  }
+  .uc-gallery-tab .t-slds {
+    overflow: visible;
+  }
+  .uc-gallery-tab .t-slds__thumbsbullet-wrapper {
+    position: relative;
+    width: 940px;
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+}
+@media (min-width: 961px) and (max-width: 1200px) {
+  .uc-gallery-tab .t764__btn-wrapper a {
+    width: 100;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media (min-width: 1201px) {
+  .uc-gallery-tab::before {
+    max-width: 1160px;
+  }
+  .uc-gallery-tab .t-slds__thumbsbullet-wrapper {
+    width: 1116px;
+  }
+}
+
+/*Галерея на внутренних*/
+@media (min-width: 961px) {
+  .uc-gallery-notab .t-slds {
+    overflow: visible;
+  }
+  .uc-gallery-notab .t-slds__thumbsbullet-wrapper {
+    position: relative;
+    width: 940px;
+  }
+}
+@media (min-width: 1201px) {
+  .uc-gallery-notab .t-slds__thumbsbullet-wrapper {
+    width: 1170px;
+  }
+}
+
+/*Каталоги*/
+.uc-catalog-okna .t-store__card__price-value,
+.uc-catalog-zhaluzi .t-store__card__price-value,
+.uc-catalog-potolki .t-store__card__price-value {
+  position: relative;
+}
+.uc-catalog-okna .t-store__card__price-value::before,
+.uc-catalog-zhaluzi .t-store__card__price-value::before,
+.uc-catalog-potolki .t-store__card__price-value::before {
+  content: "от ";
+}
+.uc-catalog-okna .t-store__card__btns-wrapper .t-btn,
+.uc-catalog-zhaluzi .t-store__card__btns-wrapper .t-btn,
+.uc-catalog-potolki .t-store__card__btns-wrapper .t-btn {
+  width: 100%;
+}
+
+.uc-catalog-zhaluzi .t-store__card__price-currency,
+.uc-catalog-potolki .t-store__card__price-currency {
+  position: relative;
+}
+.uc-catalog-zhaluzi .t-store__card__price-currency::after,
+.uc-catalog-potolki .t-store__card__price-currency::after {
+  content: "/кв.м";
+}
+
+/*Рассчитать стоимость окна*/
+@media (min-width: 641px) {
+  .uc-okna-calc li.t-img-select__item {
+    width: calc(16% - 10px);
+  }
+  .uc-okna-calc .t-text_xs {
+    font-size: 10px;
+  }
+}
+
+/*Рассчитать стоимость жалюзи*/
+@media (min-width: 641px) {
+  .uc-zhalyuzi-calc li.t-img-select__item {
+    width: calc(33% - 10px);
+  }
+  .uc-zhalyuzi-calc .t-text_xs {
+    font-size: 10px;
+  }
+}
+
+/*Контакты*/
+@media (min-width: 961px) {
+  .uc-contacts .t433__contentwrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .uc-contacts .t433__contentwrapper .t433__btn-wrapper {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+}
+
+/*Футер*/
+.uc-main-footer .t389__list_item a {
+  display: inline-block;
+  position: relative;
+  padding-left: 27px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  color: lightgrey;
+}
+.uc-main-footer .t389__list_item a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%) rotate(0deg);
+          transform: translateY(-50%) rotate(0deg);
+  width: 20px;
+  height: 20px;
+  background-image: url("https://static.tildacdn.com/tild6438-3133-4465-a531-613430303033/logo-onmaster.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.uc-main-footer .t389__list_item a:hover, .uc-main-footer .t389__list_item a:focus, .uc-main-footer .t389__list_item a:active {
+  color: #ffffff !important;
+}
+.uc-main-footer .t389__list_item a:hover::before, .uc-main-footer .t389__list_item a:focus::before, .uc-main-footer .t389__list_item a:active::before {
+  -webkit-transform: translateY(-50%) rotate(360deg);
+          transform: translateY(-50%) rotate(360deg);
+}
+.uc-main-footer .t389_scrolltop {
+  position: relative;
+  border: 1px solid #ffffff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  padding: 6px 47px 6px 25px;
+  border-radius: 3px;
+  color: #ffffff;
+}
+.uc-main-footer .t389_scrolltop::before {
+  content: "";
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  background-image: url("https://static.tildacdn.com/tild6232-6533-4337-a535-613366373563/arrow-up.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.uc-main-footer .t389_scrolltop .t389__icon {
+  display: none;
+}
+
+@media (min-width: 961px) {
+  .uc-okna-service {
+    margin-top: -70px;
+  }
+}
