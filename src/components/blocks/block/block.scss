@@ -1,0 +1,516 @@
+.uc-nav {
+  & .t967 {
+      overflow: hidden;
+      background-color: white;
+  }
+  & .t967__additionalwrapper {
+      justify-content: flex-end;
+      flex-wrap: wrap;
+  }
+  & .t967__bottom {
+      position: relative;
+      &::before {
+          content: "";
+          position: absolute;
+          left: 50%;
+          top: 0;
+          bottom: 0;
+          width: 100vw;
+          background-color: #ff7300;
+          transform: translateX(-50%);
+          z-index: -1;
+      }
+  }
+
+  & .t967__additional-descr ul {
+      
+      list-style: none;
+      margin: 0;
+      padding: 0 !important;
+      display: flex;
+      gap: 30px;
+
+      & li {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          padding-left: 40px;
+
+          &::before {
+              position: absolute;
+              content: "";
+              left: 0;
+              top: 50%;
+              width: 30px;
+              height: 30px;
+              background-repeat: no-repeat;
+              background-size: contain;
+              background-position: center;
+              background-image: url(https://static.tildacdn.com/tild3031-3031-4665-b331-663535366438/icon-phone.svg);
+              transform: translateY(-50%);
+          }
+
+          & strong,
+          & a {
+              display: inline-block;
+          }
+      }
+  }
+}
+
+.uc-header-top {
+  & .t821__phone-container,
+  & .t821__adress-container {
+      & a {
+          transition: 0.2s;
+
+          &:hover {
+              color: #144a93!important;
+          }
+      }
+  }
+}
+
+/*Наша продукция*/
+.uc-product-list--mob {
+  & .t-card__title {
+      font-size: 24px;
+  }
+
+  & .t-card__descr {
+      & ul {
+          list-style: none;
+          padding-left: 0 !important;
+          
+          & li {
+              position: relative;
+              padding-left: 2em;
+
+              &::before {
+                  content: "";
+                  position: absolute;
+                  left: 0;
+                  top: 0.7em;
+                  width: 1em;
+                  height: 1px;
+                  background-color: #144a93;
+              }
+          }
+      }
+  }
+}
+.uc-card-fix,
+.uc-card-fix-zhalyuzi,
+.uc-card-fix-potolki,
+.uc-card-fix-softokna {
+  & .t226__floating {
+      top: 100px;
+  }
+
+  & .t226__text {
+      & ul {
+          list-style: none;
+          padding-left: 0 !important;
+          
+          & li {
+              position: relative;
+              padding-left: 2em;
+
+              &::before {
+                  content: "";
+                  position: absolute;
+                  left: 0;
+                  top: 0.7em;
+                  width: 1em;
+                  height: 1px;
+                  background-color: #144a93;
+              }
+          }
+      }
+  }
+}
+
+.uc-card-fix-zhalyuzi,
+.uc-card-fix-potolki,
+.uc-card-fix-softokna {
+  & .t226__fixedTop {
+      & .t226__title {
+          display: none;
+      }
+  }
+
+  & .t226__floating {
+      & .t226__title {
+          display: block;
+      }
+  }
+}
+/*Главный слайдер*/
+.uc-main-slider {
+  & .t734__textwrapper {
+      display: inline-flex;
+      flex-direction: column;
+      position: relative;
+      z-index: 1;
+
+      @media (min-width: 961px) {
+          max-width: 600px;
+      }  
+
+      &::before {
+          content: "";
+          position: absolute;
+          top: -60px;
+          left: -40px;
+          width: calc(100% + 80px);
+          height: calc(100% + 120px);
+          background-color: #fff;
+          filter: blur(40px);
+          z-index: -1;
+          opacity: 0.7;
+      }
+  }
+}
+/*Баннер на внутренних*/
+.uc-banner {
+  & .t941__descr,
+  & .t181__descr {
+      & ul {
+          list-style: none;
+          padding-left: 0 !important;
+          
+          & li {
+              position: relative;
+              padding-left: 2em;
+
+              &::before {
+                  content: "";
+                  position: absolute;
+                  left: 0;
+                  top: 0.7em;
+                  width: 1em;
+                  height: 1px;
+                  background-color: #144a93;
+              }
+          }
+      }
+  }
+}
+/*Подзаголовки*/
+.uc-subtitle {
+  & .t050__uptitle {
+      @media (max-width: 960px) {
+          font-size: 14px!important;
+      }
+      padding-top: 0;
+      padding-bottom: 0;
+      
+  }
+
+  & .t050__title {
+      @media (max-width: 960px) {
+          & p {
+              font-size: 36px!important;
+              word-wrap: break-word;
+          }
+      }
+
+      @media (min-width: 961px) {
+          margin-top: -20px;
+      }
+
+  }
+}
+
+/*Форма консультации*/
+.uc-consultation-form {
+
+  & .t700__contentbox {
+      @media (min-width: 961px) {
+          position: relative;
+      bottom: 0;
+      }
+      
+  }
+  & .t700__img {        
+      left: 0;
+      bottom: -60px;
+
+      @media (min-width: 961px) {
+          position: absolute;
+          width: 100%;
+          height: auto;
+      }
+
+  }
+}
+/*Галерея на главной*/
+#rec672081577.uc-gallery-tabs {
+  
+  @media (min-width: 961px) {
+      position: relative;
+      
+      & .t395__wrapper {
+          display: flex;
+          column-gap: 10px;
+      }
+
+      & .t395__tab {
+          border-top: 1px solid #333333 !important;
+          border-left: 1px solid #333333 !important;
+          border-right: 1px solid #333333 !important;
+          border-color: #333333 !important;
+          border-radius: 10px 10px 0 0;
+
+          &:hover,
+          &:focus {
+              border-top: 1px solid #144a93 !important;
+              border-left: 1px solid #144a93 !important;
+              border-right: 1px solid #144a93 !important;
+              border-color: #144a93 !important;
+              background-color: #ffffff !important;
+          }
+      }
+
+      & .t395__tab.t395__tab_active {
+          border-top: 1px solid #144a93 !important;
+          border-left: 1px solid #144a93 !important;
+          border-right: 1px solid #144a93 !important;
+          border-color: #144a93 !important;
+          position: relative;
+          z-index: 5;
+      }
+
+      & .t395__tab {
+          &:first-child {
+              margin-left: -1px;
+          }
+          &:last-child {
+              margin-right: -1px;
+          }
+      }
+  }
+}
+/*Галерея на главной*/
+.uc-gallery-tab {
+  @media (min-width: 961px) {
+      position: relative;
+      z-index: 1;
+
+      &::before {
+          display: block;
+          content: "";
+          position: absolute;
+          top: -1px;
+          bottom: 105px;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 100%;
+          max-width: 940px;
+          background-color: #ffffff;
+          z-index: -1;
+          border: 1px solid #144a93;
+      }
+
+      & .t-slds__imgwrapper {
+          padding-left: 22px;
+      }
+
+      & .t764__textwrapper {
+          padding-right: 22px;
+      }
+
+      & .t-slds {
+          overflow: visible;
+      }
+
+      & .t-slds__thumbsbullet-wrapper {
+          position: relative;
+          width: 940px;
+          padding-left: 22px;
+          padding-right: 22px;
+      }
+
+      
+  }
+
+  @media (min-width: 961px) and (max-width: 1200px) {
+      & .t764__btn-wrapper a {
+          width: 100;
+          padding: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+  }
+
+  @media (min-width: 1201px) {
+      &::before {
+          max-width: 1160px;
+      }
+
+      & .t-slds__thumbsbullet-wrapper {
+          width: 1116px;
+      }
+  }
+}
+/*Галерея на внутренних*/
+.uc-gallery-notab {
+  @media (min-width: 961px) {
+      & .t-slds {
+          overflow: visible;
+      }
+
+      & .t-slds__thumbsbullet-wrapper {
+          position: relative;
+          width: 940px;
+      }
+  }
+
+  @media (min-width: 1201px) {
+      & .t-slds__thumbsbullet-wrapper {
+          width: 1170px;
+      }
+  }
+}
+/*Каталоги*/
+.uc-catalog-okna,
+.uc-catalog-zhaluzi,
+.uc-catalog-potolki {
+  & .t-store__card__price-value {
+      position: relative;
+
+      &::before {
+          content: "от ";
+      }
+  }
+
+  & .t-store__card__btns-wrapper {
+      & .t-btn {
+          width: 100%;
+      }
+  }
+
+}
+
+.uc-catalog-zhaluzi,
+.uc-catalog-potolki {
+  & .t-store__card__price-currency {
+      position: relative;
+
+      &::after {
+          content: "/кв.м";
+      }
+  }
+}
+/*Рассчитать стоимость окна*/
+.uc-okna-calc {
+  @media (min-width: 641px) {
+      & li.t-img-select__item {
+          width: calc(16% - 10px); 
+      }
+
+      & .t-text_xs {
+          font-size: 10px;
+      }
+  }
+}
+/*Рассчитать стоимость жалюзи*/
+.uc-zhalyuzi-calc {
+  @media (min-width: 641px) {
+      & li.t-img-select__item {
+          width: calc(33% - 10px); 
+      }
+
+      & .t-text_xs {
+          font-size: 10px;
+      }
+  }
+}
+
+/*Контакты*/
+.uc-contacts {
+  & .t433__contentwrapper {
+      @media (min-width: 961px) {
+          display: flex;
+          flex-direction: column;
+
+          & .t433__btn-wrapper {
+              order: 1;
+          }
+      }
+  }
+}
+
+/*Футер*/
+.uc-main-footer {  
+  & .t389__list_item a {
+    display: inline-block;
+    position: relative;
+    padding-left: 27px;
+    transition: 0.2s;
+    color: lightgrey;
+      
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%) rotate(0deg);
+      width: 20px;
+      height: 20px;
+      background-image: url("https://static.tildacdn.com/tild6438-3133-4465-a531-613430303033/logo-onmaster.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      transition: 0.5s;
+
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: #ffffff!important;
+
+      &::before {
+        transform: translateY(-50%) rotate(360deg);
+      }
+    }
+  }
+
+  & .t389_scrolltop {
+    position: relative;
+    border: 1px solid #ffffff;
+    transition: 0.2s;
+    padding: 6px 47px 6px 25px;
+    border-radius: 3px;
+    color: #ffffff;
+
+    &::before {
+      content: "";
+      position: absolute;
+      right: 24px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 16px;
+      height: 16px;
+      background-image: url("https://static.tildacdn.com/tild6232-6533-4337-a535-613366373563/arrow-up.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+    } 
+
+
+    & .t389__icon {
+      display: none;
+    }
+
+  }
+}
+
+.uc-okna-service {
+  @media (min-width: 961px) {
+      margin-top: -70px;
+  }    
+}
