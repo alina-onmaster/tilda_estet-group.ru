@@ -28,7 +28,6 @@ import {otfToTtf, ttfToWoff, ttfToWoff2, fontsStyle} from "./gulp/tasks/fonts.js
 
 // Наблюдатель за изменениями в файлах
 function watcher() {
-    gulp.watch(path.watch.files, copy);
     gulp.watch(path.watch.html, html);
     gulp.watch(path.watch.scss, scss);
     gulp.watch(path.watch.js, js);
@@ -43,7 +42,7 @@ const images = gulp.series(img, svg);
 const mainTasks = gulp.parallel(html, scss, js, img);
 
 // Построение сценариев выполнения задач
-const dev = gulp.series(mainTasks, gulp.parallel(watcher, server));
+const dev = gulp.series(mainTasks, watcher);
 
 
 //Экспорт сценариев
